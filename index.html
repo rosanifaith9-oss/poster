@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <title>Poster</title>
+    <style>
+         body{
+             margin:0;
+             min-height:100vh;
+             display:flex;
+             justify-content:center;
+             align-items:center;
+             text-align:center;
+             background:linear-gradient(45deg, grey, black)
+         }
+        .poster{
+            color:silver
+        }
+        .typing-text::after{
+            content:"-dream it";
+            animation:typing 3s infinite;
+            color:black;
+            font-size:13px;
+        }
+        @keyframes typing{
+            50%{content:"-achieve it"};
+        }
+        
+    </style>
+    </head>
+    <body>
+        <div class="poster">
+            <h1>ALWAYS DO YOUR BEST</h1>
+            <span class="typing-text"></span>
+            <p>-Rosani Juliane Faith P.</p>
+        </div>
+    </body>
+    </html>
